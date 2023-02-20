@@ -1,0 +1,5 @@
+mysql -uroot -e "DROP USER auth_user@localhost"
+
+mysql -uroot < init.sql
+
+# 查看端口使用情况
